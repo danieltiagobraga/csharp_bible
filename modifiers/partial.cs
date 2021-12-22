@@ -19,8 +19,6 @@ namespace modifiers_partial
 
         void Method02() {
             // IMPLEMENTATION HERE
-            (int x, int y) = point;
-
         }
     }
 
