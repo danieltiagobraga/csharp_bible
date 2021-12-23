@@ -3,7 +3,8 @@ namespace modifiers_abstract
     /*
         Use the abstract modifier in a class declaration to indicate that a class is intended only to be a base class of other classes, not instantiated on its own.
     */
-    public abstract class A {}
+    public abstract class A {
+    }
 
     public class B {
         public B() {
