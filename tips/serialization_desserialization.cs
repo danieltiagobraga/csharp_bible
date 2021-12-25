@@ -3,9 +3,6 @@
     a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed. 
     
     The reverse process is called deserialization.
-
-    
-
 */
 using System;
 using System.IO;

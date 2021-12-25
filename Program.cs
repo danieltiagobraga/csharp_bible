@@ -1,6 +1,7 @@
 ﻿using System;
 using exceptions_examples;
 using serialization_desserialization;
+using STRUCTS;
 
 namespace csharp_bible
 {
@@ -11,14 +12,7 @@ namespace csharp_bible
             var e = new Exception_Example01();
             e.Run();
 
-
-            var c1 = new Customer("Daniel Braga", "Los Angeles");
-            var c2 = c1;
-
-            c2.Name = "Tiago Rodrigues";
-            
-
-            var s = c1.Serialize();
+            TestStruct.Run();
 
             Console.WriteLine("Hello World!");
         }
